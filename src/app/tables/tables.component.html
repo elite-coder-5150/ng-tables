@@ -7,20 +7,42 @@
             <th>status</th>
             <th>customer</th>
             <th>purchase</th>
-            <th><!----- empty for the edit and delete links -----></th>
+            <th>
+                <!----- empty for the edit and delete links ----->
+            </th>
         </tr>
-        <tbody>
-            <tr>
-                <td>{{invoice.invoice}}</td>
-                <td>{{invoice.date}}</td>
-                <td>{{invoice.status}}</td>
-                <td>{{invoice.customer}}</td>
-                <td>{{invoice.purchase}}</td>
-                <td>
-                    <a href="#">Edit</a>
-                    <a href="#">Delete</a>
-                </td>
-            </tr>
-        </tbody>
     </thead>
+    <tbody>
+        <tr>
+            <td>#3066</td>
+            <td>Jan 6, 2022</td>
+            <td>
+                <div class="status">
+                    <div class="badge-paid">
+                        <div class="icon">
+                            <div class="checkmark-icon"></div>
+                        </div>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="profile">
+                    <div class="avatar">
+                        <img src="../../assets/images/olivia-rhye.png" alt="image">
+                    </div>
+                    <div class="text">
+                    <div class="username">Olivia Rhye</div>
+                    <div class="email">olivia@untitledui.com</div>
+                    </div>
+                </div>
+            </td>
+            <td>Monthly subscription</td>
+            <td>
+                <a href="#">Delete</a>
+                <a href="#" class="primary-text">Edit</a>
+
+            </td>
+        </tr>
+    </tbody>
+   
 </table>
